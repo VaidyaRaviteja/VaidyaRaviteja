@@ -1,22 +1,19 @@
-![Raviteja Vaidya, Hyderabad. Python, SQL and embedded C.](https://raw.githubusercontent.com/VaidyaRaviteja/VaidyaRaviteja/6a544b2b07b18d84de8c3f84212eb37466d3df14/assets/profile-aurora.svg)
+![Raviteja Vaidya — Embedded Systems Engineer](https://raw.githubusercontent.com/VaidyaRaviteja/VaidyaRaviteja/59a9b1ff9e53ab086a1378c523c4ecb60d1167a1/assets/profile-aurora.svg)
 
-I’m Raviteja, a computer science graduate in Hyderabad. I like problems where I can follow an input all the way to its result. Here are two I’ve worked on, from a pipeline of music records down to a single bit.
+I’m an **Embedded Systems Engineer at Inductron Energy** in **Masjid Banda, Hyderabad**, where I’ve worked since July 2026. This is my personal firmware workbench. I use small STM32 projects and C programs to explore how a microcontroller reads a pin, measures a signal, and communicates with another device.
 
-[![Spotify data pipeline — Python and Airflow](https://raw.githubusercontent.com/VaidyaRaviteja/VaidyaRaviteja/6a544b2b07b18d84de8c3f84212eb37466d3df14/assets/spotify-cover.svg)](https://github.com/VaidyaRaviteja/spotify-etl-data-engineering)
+## STM32 peripheral projects
 
-**Did every track arrive?** After uploading track data to S3, my Airflow workflow branches into Databricks processing and AWS cataloging. A later task compares track and album counts from Athena and Snowflake.
+| Peripheral | What to explore |
+| --- | --- |
+| GPIO · Digital input and output | Start with [blinking an LED](https://github.com/VaidyaRaviteja/STM32-Learning/tree/main/MyFirstBlink), then explore the [GPIO project](https://github.com/VaidyaRaviteja/STM32-Learning/tree/main/GPIO). |
+| ADC · Analog-to-digital converter | Explore how the [ADC project](https://github.com/VaidyaRaviteja/STM32-Learning/tree/main/ADC) configures the peripheral that turns an analog voltage into a digital reading. |
+| UART · Serial communication | Open the [UART project](https://github.com/VaidyaRaviteja/STM32-Learning/tree/main/UART) to explore the setup for serial communication. |
 
-[Read the workflow](https://github.com/VaidyaRaviteja/spotify-etl-data-engineering/blob/main/dags/spotify_etl_dag.py) · [Explore the architecture](https://github.com/VaidyaRaviteja/spotify-etl-data-engineering/tree/main/architecture) · [Implementation guide](https://github.com/VaidyaRaviteja/spotify-etl-data-engineering/blob/main/IMPLEMENTATION_GUIDE.md)
+[![Button debounce — Embedded C and GPIO](https://raw.githubusercontent.com/VaidyaRaviteja/VaidyaRaviteja/59a9b1ff9e53ab086a1378c523c4ecb60d1167a1/assets/debounce-cover.svg)](https://github.com/VaidyaRaviteja/embedded-c-learning/blob/main/embedded-c/gpio_button_debounce.c)
 
-[![Button debounce — embedded C and GPIO](https://raw.githubusercontent.com/VaidyaRaviteja/VaidyaRaviteja/6a544b2b07b18d84de8c3f84212eb37466d3df14/assets/debounce-cover.svg)](https://github.com/VaidyaRaviteja/embedded-c-learning/blob/main/embedded-c/gpio_button_debounce.c)
+**When does a button press count?** In my C simulation, the orange trace follows six readings: `0 1 0 1 1 1`. The first high disappears on the next sample. The last three highs agree, so the accepted state, shown in green, changes on the sixth sample.
 
-**Did the button really change state?** The orange line follows six simulated readings: `0 1 0 1 1 1`. The first high lasts one sample. The final three agree, so the green line rises on the sixth. That’s the rule my C program implements.
+[Read the debounce code](https://github.com/VaidyaRaviteja/embedded-c-learning/blob/main/embedded-c/gpio_button_debounce.c) · [Explore timer prescalers](https://github.com/VaidyaRaviteja/embedded-c-learning/blob/main/embedded-c/timer_prescaler.c) · [See how interrupt flags are handled](https://github.com/VaidyaRaviteja/embedded-c-learning/blob/main/embedded-c/interrupt_flag_handling.c)
 
-[Read the C example](https://github.com/VaidyaRaviteja/embedded-c-learning/blob/main/embedded-c/gpio_button_debounce.c) · [Explore my STM32 GPIO project](https://github.com/VaidyaRaviteja/STM32-Learning/tree/main/GPIO)
-
-## More from my workbench
-
-- **Retail SQL** · Which month had the highest average transaction value each year? [See the ranking query](https://github.com/VaidyaRaviteja/Data-Analysis/blob/main/Retail%20Sales%20Analysis%20-%20P1#L151).
-- **Django** · What happens when a visitor requests an employee ID that doesn’t exist? [Follow the detail view](https://github.com/VaidyaRaviteja/DJANGO/blob/main/Employees/app/views.py).
-
-I’m open to collaborating on data analysis and machine learning projects. [Connect on LinkedIn](https://www.linkedin.com/in/raviteja-vaidya/).
+I enjoy comparing notes on STM32 peripherals and embedded C. [Connect with me on LinkedIn](https://www.linkedin.com/in/raviteja-vaidya/).
