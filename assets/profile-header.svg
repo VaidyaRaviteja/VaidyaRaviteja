@@ -3,9 +3,9 @@
 <defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#344446" stroke-width=".8"/></pattern></defs>
 <rect width="1120" height="280" rx="18" fill="#142325"/>
 <rect x="582" y="20" width="518" height="240" rx="10" fill="url(#grid)"/>
-<g font-family="monospace" fill="#9de4d0"><text x="42" y="55" font-size="15" letter-spacing="2">HYDERABAD, INDIA</text></g>
+<g font-family="monospace" fill="#9de4d0"></g>
 <g font-family="Georgia,serif" fill="#fff3dc" font-size="74"><text x="38" y="134">Raviteja Vaidya</text></g>
-<path d="M42 162H518" stroke="#526463"/><text x="42" y="204" font-size="21" font-family="sans-serif" fill="#dfebe3">Data engineering · Python · Embedded C</text>
+<path d="M42 162H518" stroke="#526463"/><text x="42" y="204" font-size="21" font-family="sans-serif" fill="#dfebe3">Embedded Systems Engineer</text>
 <g font-family="monospace" font-size="13" fill="#dbe8de"><text x="610" y="57">GPIO / BUTTON DEBOUNCE</text><text x="610" y="84" fill="#f9ae80">RAW INPUT</text><text x="610" y="174" fill="#9de4d0">ACCEPTED STATE</text></g>
 <g stroke="#f9ae80" fill="none"><path stroke-width="3" d="M621 143 h71 V101h71 V143h71 V101h71 V101h71 V101h71"/><circle cx="656.5" cy="143" r="3" fill="#f9ae80"/><circle cx="727.5" cy="101" r="3" fill="#f9ae80"/><circle cx="798.5" cy="143" r="3" fill="#f9ae80"/><circle cx="869.5" cy="101" r="3" fill="#f9ae80"/><circle cx="940.5" cy="101" r="3" fill="#f9ae80"/><circle cx="1011.5" cy="101" r="3" fill="#f9ae80"/></g>
 <g stroke="#9de4d0" fill="none"><path stroke-width="3" d="M621 219 h71 V219h71 V219h71 V219h71 V219h71 V187h71"/><circle cx="656.5" cy="219" r="3" fill="#9de4d0"/><circle cx="727.5" cy="219" r="3" fill="#9de4d0"/><circle cx="798.5" cy="219" r="3" fill="#9de4d0"/><circle cx="869.5" cy="219" r="3" fill="#9de4d0"/><circle cx="940.5" cy="219" r="3" fill="#9de4d0"/><circle cx="1011.5" cy="187" r="3" fill="#9de4d0"/></g>
