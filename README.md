@@ -15,4 +15,4 @@ I’m Raviteja, a computer science graduate based in Hyderabad. I use Python and
 
 I’m practicing [register-level C](https://github.com/VaidyaRaviteja/embedded-c-learning/tree/main/embedded-c) and keeping my [Python notebooks](https://github.com/VaidyaRaviteja/Python) together for revision. For browser projects, try the [stopwatch, quote generator, and other JavaScript exercises](https://github.com/VaidyaRaviteja/JavaScript).
 
-I’m open to collaborating on data analysis and machine learning projects. [Connect with me on LinkedIn](https://www.linkedin.com/in/raviteja-vaidya-/).
+I’m open to collaborating on data analysis and machine learning projects. [Connect with me on LinkedIn](https://www.linkedin.com/in/raviteja-vaidya/).
